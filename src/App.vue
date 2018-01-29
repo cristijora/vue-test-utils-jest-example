@@ -1,25 +1,22 @@
 <template>
-  <div id="app">
-    <message-toggle />
-    <list :items="['list item 1', 'listen item 2']" />
-  </div>
+    <div id="app">
+        <svg-test></svg-test>
+    </div>
 </template>
 
 <script>
-import MessageToggle from '@/components/MessageToggle.vue'
-import List from '@/components/List.vue'
+    import SvgTest from '@/components/SvgTest.vue'
 
-export default {
-  components: {
-    MessageToggle,
-    List
-  }
-}
+    export default {
+        components: {
+            SvgTest
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  color: #2c3e50;
-}
+    #app {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        color: #2c3e50;
+    }
 </style>
